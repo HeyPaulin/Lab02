@@ -31,6 +31,16 @@ public class Conta {
         saldo += valor;
         return saldo;
     }
+    public void transferir(Conta destino, Double valor) {
+        if(this.getSaldo() < valor)
+            throw IllegalArgumentException("");
+
+        if (this.equals(destino))
+            throw new IllegalArgumentException("");
+
+        this.sacar(valor);
+        destino.depositar(valor);
+    }
 
     public Integer getNumero() {
         return numero;
