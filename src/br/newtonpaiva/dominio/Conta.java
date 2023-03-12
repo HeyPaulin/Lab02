@@ -2,10 +2,10 @@ package br.newtonpaiva.dominio;
 
 import java.util.Objects;
 
-public class Conta {
+public class Conta implements Transferencia {
     private Integer numero;
 
-    private Double saldo;
+    protected Double saldo;
 
     public Conta() {
         this(null, null);
@@ -31,8 +31,9 @@ public class Conta {
         saldo += valor;
         return saldo;
     }
+
     public void transferir(Conta destino, Double valor) {
-        if(this.getSaldo() < valor)
+        if (this.getSaldo() < valor)
             throw IllegalArgumentException("");
 
         if (this.equals(destino))
@@ -54,7 +55,9 @@ public class Conta {
         return saldo;
     }
 
-    public void setSaldo(Double saldo) { this.saldo = saldo; }
+    public void setSaldo(Double saldo) {
+        this.saldo = saldo;
+    }
 
     @Override
     public boolean equals(Object o) {
