@@ -1,7 +1,6 @@
 package br.newtonpaiva.ui;
 
-import br.newtonpaiva.dominio.Conta;
-import br.newtonpaiva.dominio.ContaEspecial;
+import br.newtonpaiva.dominio.*;
 
 import java.sql.SQLOutput;
 
@@ -28,6 +27,13 @@ public class Main {
         }
 
         System.out.println(c.getSaldo());
+        Pessoa pessoas[] = new Pessoa[4];
+        pessoas[0] = new PessoaFisica();
+        pessoas[1] = new PessoaJuridica();
+        pessoas[2] = new PessoaJuridica();
+        pessoas[3] = new PessoaFisica();
 
+        for (Pessoa p : pessoas)
+            p.validarDocumento();
     }
 }

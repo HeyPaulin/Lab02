@@ -6,7 +6,7 @@ public class ContaEspecial extends Conta {
     @Override
     public Double sacar(Double valor) {
         if (saldo + limite - valor < 0)
-            throw new IllegalArgumentException("")
+            throw new IllegalArgumentException("");
 
         setSaldo(getSaldo() - valor);
 

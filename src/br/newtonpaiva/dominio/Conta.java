@@ -34,7 +34,7 @@ public class Conta implements Transferencia {
 
     public void transferir(Conta destino, Double valor) {
         if (this.getSaldo() < valor)
-            throw IllegalArgumentException("");
+            throw new IllegalArgumentException("");
 
         if (this.equals(destino))
             throw new IllegalArgumentException("");
