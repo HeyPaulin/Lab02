@@ -4,6 +4,7 @@ public abstract class Pessoa {
     private String nome;
 
     public abstract void validarDocumento();
+
     public String getNome() {
         return nome;
     }

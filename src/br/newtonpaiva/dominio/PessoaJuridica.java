@@ -2,7 +2,7 @@ package br.newtonpaiva.dominio;
 
 import java.util.Objects;
 
-public class PessoaJuridica extends Pessoa{
+public class PessoaJuridica extends Pessoa {
     private String cnpj;
 
     public String getCnpj() {
