@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f7560b-9d0b-48f1-bed7-3086d52f1d65" name="Changes" comment="feat: Aula04 - Continuação">
-      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/PessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/PessoaJuridica.java" afterDir="false" />
+    <list default="true" id="b4f7560b-9d0b-48f1-bed7-3086d52f1d65" name="Changes" comment="feat: Aula05 - Continuação - Tarley">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/ContaEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/ContaEspecial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678642232745</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: Aula05 - Continuação - Tarley">
+      <created>1679101206441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679101206441</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Aula05 - Continuação - Tarley">
+      <created>1679241422922</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679241422922</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +132,7 @@
     <MESSAGE value="feat: cria estrutura inicial" />
     <MESSAGE value="feat: criar a classe conta" />
     <MESSAGE value="feat: Aula04 - Continuação" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Aula04 - Continuação" />
+    <MESSAGE value="feat: Aula05 - Continuação - Tarley" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Aula05 - Continuação - Tarley" />
   </component>
 </project>

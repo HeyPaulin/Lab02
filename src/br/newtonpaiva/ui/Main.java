@@ -35,5 +35,25 @@ public class Main {
 
         for (Pessoa p : pessoas)
             p.validarDocumento();
+
+        Conta conta = new ContaPoupanca();
+        conta.setNumero(11110009);
+        conta.setSaldo(5000.0);
+
+        Pessoa paulo = new PessoaFisica();
+        paulo.setNome("Paulo");
+        paulo.getContas().add(conta);
+
+        conta.setPessoa(paulo);
+
+        for(Conta c: paulo.getContas())
+            c.depositar(100.0);
+
+        conta.getPessoa().add;
+
+        //paulo.setConta(conta);
+
+        conta.setPessoa(paulo);
+
     }
 }
